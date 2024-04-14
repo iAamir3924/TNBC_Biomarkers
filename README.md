@@ -5,19 +5,19 @@
 (iv) View files (e.g. summary (tnbc.maf/ head(tnbc.maf). 
 
 ## For additional statisitcal details, use our code!
-# Install and load the psych package
+### Install and load the psych package
 install.packages("psych")
 library(psych)
 
-# Print detailed summary statistics using describe()
+### Print detailed summary statistics using describe()
 describe(BRCA.mut)
 
-# Alternatively, you can use the skimr package
-# Install and load the skimr package
+### Alternatively, you can use the skimr package
+### Install and load the skimr package
 install.packages("skimr")
 library(skimr)
 
-# Print detailed summary statistics using skim()
+### Print detailed summary statistics using skim()
 skim(BRCA.mut)
 
 ## For querries or troubleshooting, reach us at aamirmehmood@sjtu.edu.cn
